@@ -12,3 +12,5 @@
 5. 5-print_string.py - Prints a string stored in a variable 3 times, followed by the first 9 characters of the string.
 
 6. 6-concat.py - Prints the message 'Welcome to Holberton School!' using strings stored in variables.
+
+7. 7-edges.py - Uses slicing to take sections of strings stored in variables and print them.
