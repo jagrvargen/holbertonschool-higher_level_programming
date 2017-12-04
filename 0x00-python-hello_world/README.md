@@ -10,3 +10,5 @@
 4. 4-print_float.py - Prints a float to two decimal points.
 
 5. 5-print_string.py - Prints a string stored in a variable 3 times, followed by the first 9 characters of the string.
+
+6. 6-concat.py - Prints the message 'Welcome to Holberton School!' using strings stored in variables.
