@@ -8,3 +8,5 @@
 3. 3-print_number.py - Prints a message using variable substitution.
 
 4. 4-print_float.py - Prints a float to two decimal points.
+
+5. 5-print_string.py - Prints a string stored in a variable 3 times, followed by the first 9 characters of the string.
