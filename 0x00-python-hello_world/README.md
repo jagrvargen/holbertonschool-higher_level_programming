@@ -14,3 +14,6 @@
 6. 6-concat.py - Prints the message 'Welcome to Holberton School!' using strings stored in variables.
 
 7. 7-edges.py - Uses slicing to take sections of strings stored in variables and print them.
+
+8. 8-concat_edges.py - Prints a section of the string 'Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax'.
