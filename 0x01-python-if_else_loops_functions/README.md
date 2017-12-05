@@ -18,3 +18,5 @@
 8. 8-uppercase.py - Prints a string in uppercase.
 
 9. 9-print_last_digit.py - Prints the last digit of a number.
+
+10. 10-add.py - A function that adds two integers and returns the result.
