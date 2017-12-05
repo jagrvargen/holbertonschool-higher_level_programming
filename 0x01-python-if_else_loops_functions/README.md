@@ -8,3 +8,5 @@
 3. 3-print_alphabt.py - Prints the alphabet in lowercase with the exception of q and e using format method.
 
 4. 4-print_hexa.py - Prints all numbers 0 to 98 in decimal and hexadecimal in the format 'dec = hex'.
+
+5. 5-print_comb2.py - Prints the numbers 0 through 99 separated by a comma and a space.
