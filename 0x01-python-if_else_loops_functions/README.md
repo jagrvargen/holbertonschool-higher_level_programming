@@ -16,3 +16,5 @@
 7. 7-islower.py - Checks if a letter is lowercase. Returns True if lowercase and False otherwise.
 
 8. 8-uppercase.py - Prints a string in uppercase.
+
+9. 9-print_last_digit.py - Prints the last digit of a number.
