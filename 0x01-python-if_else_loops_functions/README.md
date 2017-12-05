@@ -2,3 +2,5 @@
 0. 0-positive_or_negative.py - Assigns a random signed number to the variable 'number' each time it is executed. If the number is greater than 0, returns 'is positive', equal to 0, returns 'is zero', less than 0, returns 'is negative'.
 
 1. 1-last_digit.py - Assigns a random number to a variable 'number' each time it is executed. Prints 'Last digit of' followed by 'number' followed by 'is' followed by 'and is greater than 5' if the digit is greater than 5, 'and is 0' if the digit is 0, or 'and is less than 6 and not 0' if the number is less than 6 and not equal to 0.
+
+2. 2-print_alphabet.py - Prints the alphabet in lowercase without terminating newline.
