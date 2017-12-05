@@ -21,3 +21,5 @@
 9. 9-easter_egg.py - Prints the Zen of Python by importing the 'this' module and passing it to the print function.
 
 10. 10-check_cycle.c - Checks if a singly linked list has a cycle in it.
+
+11. 100-write.py - Prints exactly 'and that piece of art is useful - Dora Korpar, 2015-10-19' using the write function from the sys module to standard error. Exits with the status code 1.
