@@ -12,3 +12,5 @@
 5. 5-print_comb2.py - Prints the numbers 0 through 99 separated by a comma and a space.
 
 6. 6-print_comb3.py - Prints all possible different combinations of two digits, separated by a comma and space. The digits must be different. Prints the smallest combination of two digits in ascending order.
+
+7. 7-islower.py - Checks if a letter is lowercase. Returns True if lowercase and False otherwise.
