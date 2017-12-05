@@ -17,3 +17,7 @@
 
 8. 8-concat_edges.py - Prints a section of the string 'Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax'.
+
+9. 9-easter_egg.py - Prints the Zen of Python by importing the 'this' module and passing it to the print function.
+
+10. 10-check_cycle.c - Checks if a singly linked list has a cycle in it.
