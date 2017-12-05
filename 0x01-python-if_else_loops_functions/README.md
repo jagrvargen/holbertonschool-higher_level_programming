@@ -4,3 +4,5 @@
 1. 1-last_digit.py - Assigns a random number to a variable 'number' each time it is executed. Prints 'Last digit of' followed by 'number' followed by 'is' followed by 'and is greater than 5' if the digit is greater than 5, 'and is 0' if the digit is 0, or 'and is less than 6 and not 0' if the number is less than 6 and not equal to 0.
 
 2. 2-print_alphabet.py - Prints the alphabet in lowercase without terminating newline.
+
+3. 3-print_alphabt.py - Prints the alphabet in lowercase with the exception of q and e using format method.
