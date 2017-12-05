@@ -6,3 +6,5 @@
 2. 2-print_alphabet.py - Prints the alphabet in lowercase without terminating newline.
 
 3. 3-print_alphabt.py - Prints the alphabet in lowercase with the exception of q and e using format method.
+
+4. 4-print_hexa.py - Prints all numbers 0 to 98 in decimal and hexadecimal in the format 'dec = hex'.
