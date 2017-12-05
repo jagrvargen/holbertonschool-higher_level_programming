@@ -23,3 +23,5 @@
 10. 10-check_cycle.c - Checks if a singly linked list has a cycle in it.
 
 11. 100-write.py - Prints exactly 'and that piece of art is useful - Dora Korpar, 2015-10-19' using the write function from the sys module to standard error. Exits with the status code 1.
+
+12. 101-compile - Compiles a Python script file.
