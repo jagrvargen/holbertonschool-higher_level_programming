@@ -14,3 +14,5 @@
 6. 6-print_comb3.py - Prints all possible different combinations of two digits, separated by a comma and space. The digits must be different. Prints the smallest combination of two digits in ascending order.
 
 7. 7-islower.py - Checks if a letter is lowercase. Returns True if lowercase and False otherwise.
+
+8. 8-uppercase.py - Prints a string in uppercase.
