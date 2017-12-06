@@ -28,3 +28,5 @@
 13. 13-insert_number.c - A function that inserts a number into a sorted singly linked list.
 
 14. 100-print_tebahpla.py - Prints the alphabet in reverse order, alternating lowercase and uppercase.
+
+15. 101-remove_char_at.py - A function that creates a copy of a string, removing the character at the position n.
