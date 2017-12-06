@@ -24,3 +24,5 @@
 11. 11-pow.py - A function that computes 'a' to the power of 'b' and returns the value.
 
 12. 12-fizzbuzz.py - A function that prints the numbers from 1 to 100 separated by a space. If the number is a multiple of 3, Fizz is printed, for multiples of 5, Buzz, and for multiples of both 3 and 5, FizzBuzz.
+
+13. 13-insert_number.c - A function that inserts a number into a sorted singly linked list.
