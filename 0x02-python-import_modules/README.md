@@ -10,3 +10,5 @@
 4. 4-hidden_discovery.py - Prints all the names defined by the compiled module hidden_4.pyc in alphabetical order.
 
 5. 5-variable_load.py - Imports the variable 'a' from the file variable_load_5.py and prints its value.
+
+6. 100-my_calculator.py - Imports all functions from the file calculator_1.py and handles basic operations.
