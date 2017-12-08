@@ -12,3 +12,9 @@
 5. 5-variable_load.py - Imports the variable 'a' from the file variable_load_5.py and prints its value.
 
 6. 100-my_calculator.py - Imports all functions from the file calculator_1.py and handles basic operations.
+
+7. 101-easy_print.py - Prints '#pythoniscool' followed by a newline in the standard output.
+
+8. 102-magic_calculation.py - A function written based on prescribed bytecode.
+
+9. 103-fast_alphabet.py - Prints the alphabet in uppercase.
