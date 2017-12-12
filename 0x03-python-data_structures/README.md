@@ -16,3 +16,5 @@
 7. 7-add_tuple.py - Adds the first two integers in two tuples. Given less than two integers, zeroes will be substituted for missing values.
 
 8. 8-multiple_returns.py - Returns a tuple with the length of a string and its first character.
+
+9. 9-max_integer.py - Finds the biggest integer in a list and returns it.
