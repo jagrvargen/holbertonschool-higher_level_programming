@@ -22,3 +22,5 @@
 10. 10-divisible_by_2.py - Finds all multiples of two in a list. Returns a new list with True or False depending on whether the integer at a given position is a multiple of 2.
 
 11. 11-delete_at.py - Deletes the item at a given index in a list.
+
+12. 12-switch.py - Switches the values of two variables.
