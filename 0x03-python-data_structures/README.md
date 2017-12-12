@@ -12,3 +12,5 @@
 5. 5-no_c.py - Removes all characters 'c' and 'C' from a string.
 
 6. 6-print_matrix_integer.py - Prints a matrix of integers.
+
+7. 7-add_tuple.py - Adds the first two integers in two tuples. Given less than two integers, zeroes will be substituted for missing values.
