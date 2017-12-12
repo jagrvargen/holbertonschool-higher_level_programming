@@ -22,17 +22,19 @@ int is_palindrome(listint_t **head)
 		len++;
 	}
 	end->next = *head;
-	while (end != *head && end->next != *head && end->n == (*head)->n)
+	while (end->n == (*head)->n && end != *head)
 	{
 		jump = len;
+		(*head) = (*head)->next;
 		while (jump > 0)
 		{
 			end = end->next;
 			jump--;
 		}
-		(*head) = (*head)->next;
+		if (end->next == *head)
+			break;
 	}
-	if (end == (*head) || end->next == (*head))
+	if ((end == (*head) || end->next == (*head)) && end->n == (*head)->n)
 	{
 		end->next = NULL;
 		return (1);
