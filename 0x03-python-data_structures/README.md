@@ -24,3 +24,5 @@
 11. 11-delete_at.py - Deletes the item at a given index in a list.
 
 12. 12-switch.py - Switches the values of two variables.
+
+13. 13-is_palindrome.c - Checks if a singly linked list is a palindrome.
