@@ -4,3 +4,5 @@
 1. 1-element_at.py - Retrieves an element from a list and returns it.
 
 2. 2-replace_in_list.py - Replaces an element of a list at a specific position and returns the list.
+
+3. 3-print_reversed_list_integer.py - Prints all integers in a list in reverse order.
