@@ -18,3 +18,5 @@
 8. 8-multiple_returns.py - Returns a tuple with the length of a string and its first character.
 
 9. 9-max_integer.py - Finds the biggest integer in a list and returns it.
+
+10. 10-divisible_by_2.py - Finds all multiples of two in a list. Returns a new list with True or False depending on whether the integer at a given position is a multiple of 2.
