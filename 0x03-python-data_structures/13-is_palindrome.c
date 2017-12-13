@@ -10,18 +10,18 @@
 int is_palindrome(listint_t **head)
 {
 	unsigned int len = 0, jump = 0;
-	listint_t *end, *hold_s, *hold_e;
+	listint_t *end;
 
 	if (head == NULL || *head == NULL)
-		return (0);
+		return (1);
 	end = *head;
-	hold_s = *head;
+
 	while (end->next != NULL)
 	{
 		end = end->next;
 		len++;
 	}
-	hold_e = end;
+
 	end->next = *head;
 	while (end->n == (*head)->n && end != *head)
 	{
@@ -37,13 +37,9 @@ int is_palindrome(listint_t **head)
 	}
 	if ((end == (*head) || end->next == (*head)) && end->n == (*head)->n)
 	{
-		*head = hold_s;
-		end = hold_e;
 		end->next = NULL;
 		return (1);
 	}
-	*head = hold_s;
-	end = hold_e;
 	end->next = NULL;
 	return (0);
 }
