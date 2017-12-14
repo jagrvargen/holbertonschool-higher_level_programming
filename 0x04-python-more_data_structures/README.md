@@ -20,3 +20,5 @@
 9. 9-multiply_by_2.py - Returns a new dictionary with all values multiplied by 2.
 
 10. 10-best_score.py - Returns a key with the biggest integer value.
+
+11. 11-multiply_list_map.py - Returns a list with all values multiplied by a number without using any loops.
