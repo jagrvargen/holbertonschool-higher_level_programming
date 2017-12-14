@@ -2,7 +2,7 @@
 def search_replace(my_list, search, replace):
     if my_list:
         newList = [num for num in my_list]
-        for i in newList:
-            if i == search:
-                i = replace
+        for i in range(len(newList)):
+            if newList[i] == search:
+                newList[i] = replace
         return newList
