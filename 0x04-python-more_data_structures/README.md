@@ -14,3 +14,5 @@
 6. 6-print_sorted_dictionary.py - Prints a dictionary by ordered keys.
 
 7. 7-update_dictionary.py - Replaces or adds a key/value in a dictionary.
+
+8. 8-simple_delete.py - Deletes a key in a dictionary.
