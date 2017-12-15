@@ -10,11 +10,16 @@ def roman_to_int(roman_string):
                 flag = 1
             elif letter == 'X' and flag == 0:
                 flag = 2
+            elif letter == 'C' and flag == 0:
+                flag = 3
             if flag == 1 and (letter == 'V' or letter == 'X'):
                 tally -= 2
                 flag = 0
             elif flag == 2 and (letter == 'L' or letter == 'C'):
                 tally -= 20
+                flag = 0
+            elif flag == 3 and (letter == 'D' or letter == 'M'):
+                tally -= 100
                 flag = 0
             tally += romanNums[letter]
         return tally
