@@ -22,3 +22,5 @@
 10. 10-best_score.py - Returns a key with the biggest integer value.
 
 11. 11-multiply_list_map.py - Returns a list with all values multiplied by a number without using any loops.
+
+12. 12-roman_to_int.py - Converts a Roman numeral to decimal.
