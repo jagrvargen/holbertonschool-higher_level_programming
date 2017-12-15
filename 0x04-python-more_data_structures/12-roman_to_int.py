@@ -19,7 +19,7 @@ def roman_to_int(roman_string):
                 tally -= 20
                 flag = 0
             elif flag == 3 and (letter == 'D' or letter == 'M'):
-                tally -= 100
+                tally -= 200
                 flag = 0
             tally += romanNums[letter]
         return tally
