@@ -7,4 +7,3 @@ def best_score(my_dict):
                 maxScore = my_dict[key]
                 winner = key
         return winner
-    return my_dict
