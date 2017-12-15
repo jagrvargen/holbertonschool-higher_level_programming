@@ -5,4 +5,4 @@ def simple_delete(my_dict, key=""):
         if key in newDict.keys():
             del newDict[key]
             return newDict
-        return my_dict
+    return my_dict
