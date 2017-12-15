@@ -6,4 +6,5 @@ def best_score(my_dict):
             if my_dict[key] > maxScore:
                 maxScore = my_dict[key]
                 winner = key
-        return key
+        return winner
+    return my_dict
