@@ -10,3 +10,5 @@
 4. 4-square.py - Adds a public instance method which returns the current square's area.
 
 5. 5-square.py - Adds a public instance method my_print() which prints into stdout the square drawn with #s.
+
+6. 6-square.py - Uses two-dimensional spacing value, offsets printing of square.
