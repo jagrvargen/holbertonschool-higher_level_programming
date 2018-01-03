@@ -2,7 +2,7 @@
 
 
 def list_division(my_list_1, my_list_2, list_length):
-    if len(my_list_1) <= len(my_list_2):
+    if len(my_list_1) >= len(my_list_2):
         newList = [0 for i in range(len(my_list_1))]
     else:
         newList = [0 for i in range(len(my_list_2))]
