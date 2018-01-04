@@ -24,14 +24,13 @@ class Square:
         Args:
             val: An integer value denoting size
         """
+        self.__size = val
         if type(val) != int:
             print("size must be an integer")
             raise TypeError
         elif val < 0:
             print("size must be >= 0")
             raise ValueError
-        else:
-            self.__size = val
 
     @property
     def position(self):
@@ -48,6 +47,7 @@ class Square:
             val: A tuple denoting the vertical and horizontal starting points
                  respectively.
         """
+        self.__position = val
         if type(val) != tuple:
             print("position must be a tuple of 2 positive integers")
             raise TypeError
@@ -57,8 +57,6 @@ class Square:
         elif type(val[1]) != int or type(val[1]) != int:
             print("position must be a tuple of 2 positive integers")
             raise TypeError
-        else:
-            self.__position = val
 
     def area(self):
         """A method which returns the area of the Square
