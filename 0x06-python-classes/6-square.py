@@ -25,12 +25,6 @@ class Square:
         """
         return self.__size
 
-    @property
-    def position(self):
-        """A getter method which returns the position coordinates of the square
-        """
-        return self.__position
-
     @size.setter
     def size(self, val):
         """A setter method which sets the value of the size of the object.
@@ -46,6 +40,12 @@ class Square:
             raise ValueError
         else:
             self.__size = val
+
+    @property
+    def position(self):
+        """A getter method which returns the position coordinates of the square
+        """
+        return self.__position
 
     @position.setter
     def position(self, val):
