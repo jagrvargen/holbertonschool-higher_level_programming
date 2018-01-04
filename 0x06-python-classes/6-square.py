@@ -9,28 +9,12 @@ class Square:
         Args:
             size (int): An integer denoting size.
         """
-        if type(size) != int:
-            print("size must be an integer", end="")
-            raise TypeError
-        elif size < 0:
-            print("size must be >= 0", end="")
-            raise ValueError
-        else:
             self.__size = size
-
-        if type(position) != tuple:
-            print("position must be a tuple of 2 positive integers")
-            raise TypeError
-        elif len(position) != 2 or position[0] < 0 or position[1] < 0:
-            print("position must be a tuple of 2 positive integers")
-            raise TypeError
-        else:
             self.__position = position
 
     @property
     def size(self):
-        """A getter method which returns the size of the square object.
-        """
+        """A getter method which returns the size of the square object."""
         return self.__size
 
     @size.setter
