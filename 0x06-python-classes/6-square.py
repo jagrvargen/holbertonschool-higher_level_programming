@@ -25,6 +25,7 @@ class Square:
         """
         return self.__size
 
+    @property
     def position(self):
         """A getter method which returns the position coordinates of the square
         """
@@ -46,6 +47,7 @@ class Square:
         else:
             self.__size = val
 
+    @position.setter
     def position(self, val):
         """A setter method which sets the horizontal and verticak
            positions of the square.
