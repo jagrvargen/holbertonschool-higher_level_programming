@@ -26,6 +26,7 @@ class Square:
             raise TypeError
         else:
             self.__position = position
+
     @property
     def size(self):
         """A getter method which returns the size of the square object.
