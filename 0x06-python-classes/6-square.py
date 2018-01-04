@@ -17,8 +17,15 @@ class Square:
             raise ValueError
         else:
             self.__size = size
-        self.__position = position
 
+        if type(position) != tuple:
+            print("position must be a tuple of 2 positive integers")
+            raise TypeError
+        elif len(position) != 2 or position[0] < 0 or position[1] < 0:
+            print("position must be a tuple of 2 positive integers")
+            raise TypeError
+        else:
+            self.__position = position
     @property
     def size(self):
         """A getter method which returns the size of the square object.
