@@ -54,6 +54,9 @@ class Square:
         elif len(val) != 2 or val[0] < 0 or val[1] < 0:
             print("position must be a tuple of 2 positive integers")
             raise TypeError
+        elif type(val[1]) != int or type(val[1]) != int:
+            print("position must be a tuple of 2 positive integers")
+            raise TypeError
         else:
             self.__position = val
 
@@ -65,14 +68,14 @@ class Square:
     def my_print(self):
         """A method which prints the square using #s
         """
-        if self.__size == 0:
+        if self.size == 0:
             print()
         else:
-            for i in range(self.__position[1]):
+            for i in range(self.position[1]):
                 print(' ')
-            for i in range(self.__size):
-                for j in range(self.__position[0]):
+            for i in range(self.size):
+                for j in range(self.position[0]):
                     print(end=' ')
-                for k in range(self.__size):
+                for k in range(self.size):
                     print('#', end='')
                 print()
