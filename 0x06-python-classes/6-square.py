@@ -25,10 +25,10 @@ class Square:
             val: An integer value denoting size
         """
         if type(val) != int:
-            print("size must be an integer", end="")
+            print("size must be an integer")
             raise TypeError
         elif val < 0:
-            print("size must be >= 0", end="")
+            print("size must be >= 0")
             raise ValueError
         else:
             self.__size = val
