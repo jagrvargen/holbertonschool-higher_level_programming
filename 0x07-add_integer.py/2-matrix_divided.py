@@ -3,6 +3,9 @@
 
 def matrix_divided(matrix, div):
     """ A function that divides all elements of a matrix """
+    if type(matrix) != list:
+        raise TypeError("matrix must be a matrix (list of lists) of integers\
+/floats")
     listLen = len(matrix[0])
 
     for i in matrix:
@@ -11,7 +14,7 @@ def matrix_divided(matrix, div):
         for j in i:
             if type(j) != int and type(j) != float:
                 raise TypeError("matrix must be a matrix (list of lists) \
-                of integers/floats")
+of integers/floats")
     if type(div) != int and type(div) != float:
         raise TypeError("div must be a number")
     elif div == 0:
