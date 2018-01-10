@@ -57,5 +57,5 @@ class Rectangle:
             return new_str
         for i in range(self.height - 1):
             new_str += ("#" * self.width) + "\n"
-        new_str += "#" * self.width + "\n"
+        new_str += "#" * self.width
         return new_str
