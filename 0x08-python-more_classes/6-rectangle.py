@@ -51,7 +51,10 @@ class Rectangle:
         """A method which returns the value of a Rectangle instance's
            perimeter.
         """
-        return self.height * 2 + self.width * 2
+        if self.height == 0 or self.width == 0:
+            return 0
+        else:
+            return self.height * 2 + self.width * 2
 
     def __str__(self):
         """Returns an informal instance string representation."""
