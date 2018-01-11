@@ -9,6 +9,7 @@ A module containing a class definition for a printable rectangle.
 class Rectangle:
     """A class which creates a rectangle."""
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """The __init__ method creates a new instance of a Rectangle"""
         self.width = width
