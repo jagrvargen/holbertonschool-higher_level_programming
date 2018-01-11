@@ -10,3 +10,5 @@
 4. 4-rectangle.py - repr() will return a string representation and eval() will be able to create a new instance of a Rectangle object.
 
 5. 5-rectangle.py = The message "Bye rectangle..." will be printed when an instance of a Rectangle object is deleted.
+
+6. 6-rectangle.py - adds the public class attribute number_of_instances.
