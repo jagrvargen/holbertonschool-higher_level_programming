@@ -11,4 +11,6 @@
 
 5. 5-rectangle.py = The message "Bye rectangle..." will be printed when an instance of a Rectangle object is deleted.
 
-6. 6-rectangle.py - adds the public class attribute number_of_instances.
+6. 6-rectangle.py - Adds the public class attribute number_of_instances.
+
+7. 7-rectangle.py - Adds the public class attribute print_symbol which sets the default character to print to "#".
