@@ -55,12 +55,12 @@ class Rectangle:
 
     def __str__(self):
         """Returns an informal instance string representation."""
-        new_str = str(self.print_symbol)
+        new_str = ""
         if self.width == 0 or self.height == 0:
             return new_str
         for i in range(self.height - 1):
-            new_str = new_str + (str(self.print_symbol) * self.width) + "\n"
-        new_str = new_str + str(self.print_symbol) * self.width
+            new_str += (str(self.print_symbol) * self.width) + "\n"
+        new_str += str(self.print_symbol) * self.width
         return new_str
 
     def __repr__(self):
