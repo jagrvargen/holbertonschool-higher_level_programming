@@ -16,3 +16,5 @@
 7. 7-rectangle.py - Adds the public class attribute print_symbol which sets the default character to print to "#".
 
 8. 8-rectangle.py - Adds the static method bigger_or_equal which returns the biggest rectangle based on area.
+
+9. 9-rectangle.py - Adds the class method square which returns a new Rectangle instance with width == height == size.
