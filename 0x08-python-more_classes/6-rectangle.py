@@ -4,6 +4,8 @@
 A module containing a class definition for a printable rectangle.
 
 """
+
+
 class Rectangle:
     """A class which creates a rectangle."""
     number_of_instances = 0
