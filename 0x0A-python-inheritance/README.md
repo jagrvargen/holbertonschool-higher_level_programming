@@ -10,3 +10,9 @@
 4. 4-inherits_from.py - A function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class; otherwise False.
 
 5. 5-base_geometry.py - Creates an empty class BaseGeometry.
+
+6. 6-base_geometry.py - Adds the public instance method area(self) which raises an Exception with the message 'area() is not implemented'.
+
+7. 7-base_geometry.py - Adds the public instance method integer_validator(self, name, value) that validates value.
+
+8. 8-rectangle.py - Creates a subclass Rectangle which inherits from BaseGeometry class. Instantiates an object with width and height.
