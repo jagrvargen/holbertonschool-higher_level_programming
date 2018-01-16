@@ -16,3 +16,5 @@
 7. 7-base_geometry.py - Adds the public instance method integer_validator(self, name, value) that validates value.
 
 8. 8-rectangle.py - Creates a subclass Rectangle which inherits from BaseGeometry class. Instantiates an object with width and height.
+
+9. 9-rectangle.py - Implements area method for rectangle class. Print() prints description of rectangle.
