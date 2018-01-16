@@ -4,3 +4,5 @@
 1. 1-my_list.py - A module which defines a class MyList, which inherits from list and contains a method that prints an integer list in ascending order.
 
 2. 2-is_same_class - A function that returns True if the object is exactly one instance of the specified class.
+
+3. 3-is_kind_of_class.py - A function that returns True if the object is an instance of, or the object is an instance of a class that inherited from the specified class; otherwise False.
