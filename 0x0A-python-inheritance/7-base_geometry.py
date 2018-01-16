@@ -20,9 +20,7 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """A method which raises exceptions if incorrect types are passed"""
-        if type(name) != str:
-            raise Exception
-        elif type(value) != int:
+        if type(value) != int:
             raise TypeError("<name> must be an integer")
         elif value <= 0:
             raise ValueError("<name> must be greater than 0")
