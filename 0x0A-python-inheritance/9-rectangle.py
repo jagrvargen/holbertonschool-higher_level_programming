@@ -35,8 +35,8 @@ class Rectangle(BaseGeometry):
         self.__width = width
         self.__height = height
 
-        self.integer_validator(self.__width)
-        self.integer_validator(self.__height)
+        self.integer_validator("width", width)
+        self.integer_validator("height", height)
 
     def __str__(self):
         """Returns a description of a Rectangle object instance."""
