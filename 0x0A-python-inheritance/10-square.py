@@ -56,5 +56,6 @@ class Square(Rectangle):
     def __init__(self, size):
         """Instantiates an instance of a Square object."""
         Rectangle.__init__(self, size, size)
+        self.__size = size
         self.integer_validator("size", size)
         self.area()
