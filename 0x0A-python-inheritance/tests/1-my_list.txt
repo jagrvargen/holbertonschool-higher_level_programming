@@ -1,11 +1,41 @@
 The ``1-my_list.py`` module
 ======================
 
-Using ``print_sorted``
+Using ``MyList``
 -------------------
 
 First import ``print_sorted`` from the ``1-my_list.py`` module:
 
-    >>> print_sorted = __import__('1-my_list').print_sorted
+    >>> MyList = __import__('1-my_list').MyList
+    >>> lookup = __import__('0-lookup').lookup
 
 Now use it:
+
+    Check that object is correctly instantiated.
+
+    >>> my_list = MyList()
+    >>> print(type(my_list))
+    <class '1-my_list.MyList'>
+
+    Check that elements are integers.
+
+    >>> my_list = MyList()
+    >>> my_list.append(5)
+    >>> my_list.append("Jones")
+    >>> for i in my_list:
+    ...	    if type(i) != int:
+    ...        raise TypeError("Items must be integers.")
+    Traceback (most recent call last):
+    ...
+    TypeError: Items must be integers.
+
+    Confirm that list is sorted and original list unchanged.
+
+    >>> my_list = MyList()
+    >>> my_list.append(6)
+    >>> my_list.append(4)
+    >>> my_list.append(1)
+    >>> my_list.print_sorted()
+    [1, 4, 6]
+    >>> print(my_list)
+    [6, 4, 1]
