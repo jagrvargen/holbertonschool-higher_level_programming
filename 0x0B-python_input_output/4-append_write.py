@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+"""
+   This module containes a function which appends a string
+   to the end of a text file.
+"""
 
 def append_write(filename="", text=""):
     """A funtion that appends a string at the end of a text file."""
