@@ -11,3 +11,5 @@
 4. 4-append_write.py - A function that appends a string at the end of a text file (utf-8) and returns the number of characters added.
 
 5. 5-to_json_string.py - A function that returns the JSON representation of an object (string).
+
+6. 6-from_json_string.py - A function that returns an object (Python data structure) represented by a JSON string.
