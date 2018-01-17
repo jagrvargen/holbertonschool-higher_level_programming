@@ -18,3 +18,7 @@
 8. 8-rectangle.py - Creates a subclass Rectangle which inherits from BaseGeometry class. Instantiates an object with width and height.
 
 9. 9-rectangle.py - Implements area method for rectangle class. Print() prints description of rectangle.
+
+10. 10-square.py - Defines a class Square which inherits from the Rectangle class.
+
+11. 11-square.py - Adds __str__ magic method to Square class.
