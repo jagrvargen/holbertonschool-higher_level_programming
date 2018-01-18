@@ -4,6 +4,7 @@
    a text file.
 """
 
+
 def read_lines(filename="", nb_lines=0):
     """Reads n lines of a text file"""
     with open(filename, encoding="utf-8") as fp:
