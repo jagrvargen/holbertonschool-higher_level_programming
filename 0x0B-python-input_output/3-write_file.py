@@ -4,6 +4,7 @@
    a text file.
 """
 
+
 def write_file(filename="", text=""):
     """
        Writes a string to a text file (utf-8) and returns the number of
