@@ -23,3 +23,7 @@
 10. 10-class_to_json.py - A function that returns a dictionary with simple data structure for the JSON serialization of an object.
 
 11. 11-student.py - Defines a class Student that contains the public instance attributes first_name, last_name, and age.
+
+12. 12-student.py - Expands the to_json method to check if parameter 'attrs' is a list of strings, in which case only keys matching said strings will be added to returned dict.
+
+13. 13-student.py - Adds public method reload_from_json() which replaces all attributes of a Student instance.
