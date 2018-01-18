@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+   This module contains a function which determines if an object is of
+   a specified class.
+"""
 
 
 def is_same_class(obj, a_class):
