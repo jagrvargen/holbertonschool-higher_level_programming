@@ -17,3 +17,5 @@
 7. 7-save_to_json_file.py - A function that writes an Object to a text file, using a JSON representation.
 
 8. 8-load_from_json_file.py - A function that creates an Object from a JSON file.
+
+9. 9-add_item.py - A script that adds all arguments to a Python list and saves them to a file.
