@@ -10,10 +10,6 @@ class BaseGeometry:
        raises an Exception.
     """
 
-    def __init__(self):
-        """Initializes an instance of a BaseGeometry object."""
-        self.__self = self
-
     def area(self):
         """Raises an Exception"""
         raise Exception("area() is not implemented")
