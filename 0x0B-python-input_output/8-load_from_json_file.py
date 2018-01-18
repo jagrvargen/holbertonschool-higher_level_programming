@@ -1,4 +1,4 @@
-#!/usr/vin/python3
+#!/usr/bin/python3
 """
    This module contains a function which creates an Object from a JSON file.
 """
