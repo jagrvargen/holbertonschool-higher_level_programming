@@ -12,7 +12,6 @@ class BaseGeometry:
 
     def __init__(self):
         """Initializes an instance of a BaseGeometry object."""
-        self.__self = self
 
     def area(self):
         """Raises an Exception"""
