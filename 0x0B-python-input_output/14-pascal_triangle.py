@@ -7,11 +7,12 @@
 
 def pascal_triangle(n):
     """Returns Pascal's triangle of n"""
-    triangle = [1]
-    block = 1
-    for row in range(1, n):
-        for num in range(0, block):
-            if num == 0 or num == block - 1:
-                triangle.append([1])
-            elif num < 
+    triangle = [[1]]
+
+    for x in range(1, n):
+        row = [1]
+        for block in range(1, x):
+            row.append(triangle[x - 1][block] + triangle[x - 1][block - 1])
+        row.append(1)
+        triangle.append(row)
     return triangle
