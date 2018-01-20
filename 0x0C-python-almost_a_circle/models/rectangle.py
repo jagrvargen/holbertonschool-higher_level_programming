@@ -87,3 +87,8 @@ class Rectangle(Base):
         """
         for block in range(self.height):
             print("#" * self.width)
+
+    def __str__(self):
+        """Returns a string describing Rectangle instance."""
+        return "[Rectangle] {} {:d}/{:d} - {:d}/{:d}".format(self.id,\
+                            self.x, self.y, self.width, self.height)
