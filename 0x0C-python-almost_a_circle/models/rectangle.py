@@ -79,3 +79,11 @@ class Rectangle(Base):
             the rectangle instance.
         """
         return self.width * self.height
+
+    def display(self):
+        """
+           A public method that prints out the Rectangle instance with
+           the # character.
+        """
+        for block in range(self.height):
+            print("#" * self.width)
