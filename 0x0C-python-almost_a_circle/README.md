@@ -29,3 +29,5 @@ This is a 5-day project intended to promote a deep and practical understanding o
 12. Update the Square class by adding the update() method, which assigns and updates an instance's attributes.
 
 13. Update the Rectangle class by adding the public method to_dictionary(), which returns the dictionary representation of a Rectangle instance.
+
+14. Update the Square class by adding the public method to_dictionary(), which returns the dictionary representation of a Square instance.
