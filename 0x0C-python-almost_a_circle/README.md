@@ -31,3 +31,5 @@ This is a 5-day project intended to promote a deep and practical understanding o
 13. Update the Rectangle class by adding the public method to_dictionary(), which returns the dictionary representation of a Rectangle instance.
 
 14. Update the Square class by adding the public method to_dictionary(), which returns the dictionary representation of a Square instance.
+
+15. Update the Base class to include the static method to_json_string(list_dictionaries) which takes a list of dictionaries and returns them in the JSON string format.
