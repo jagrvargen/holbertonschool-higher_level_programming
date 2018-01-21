@@ -13,8 +13,8 @@ class Square(Rectangle):
     """
     def __init__(self, size, x=0, y=0, id=None):
         """Instantiates a Square object instance."""
-        super().__init__(size, size, x, y, id)
         self.size = size
+        super().__init__(self.size, self.size, x, y, id)
 
     def __str__(self):
         """
@@ -23,3 +23,14 @@ class Square(Rectangle):
         """
         return "[Square] {} {:d}/{:d} - {:d}".format(self.id, self.x, self.y,\
                                                      self.size)
+
+    @property
+    def size(self):
+        """The getter method for the size attribute."""
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """The setter method got the size attribute."""
+        self.width = value
+        self.height = value
