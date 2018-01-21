@@ -3,6 +3,7 @@
    This module contains the class definition for Base. Which forms the base
    for all other classes in the 'almost a circle' project.
 """
+import json
 
 
 class Base:
@@ -19,3 +20,10 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    @staticmethod
+    def to_json_string(list_dictionaries):
+        """Returns a JSON string representation of list_dictionaries."""
+        if not list_dictionaries:
+            return "[]"
+        return json.dumps(list_dictionaries)
