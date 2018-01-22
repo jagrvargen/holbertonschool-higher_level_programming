@@ -52,8 +52,18 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         """Returns an instance with all attributes set."""
-        dummy = cls(width=1, height=1)
-        print(dictionary)
-        dummy.update(width=dictionary['width'], height=dictionary['height'],\
-                     x=dictionary['x'], y=dictionary['y'])
+        dummy = cls(1, 1)
+        cls.update(dummy, **dictionary)
         return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        """Returns a list of instances loaded from a json file."""
+        instance_list = []
+        filename = cls.__name__ + ".json"
+        with open(filename, encoding="utf-8") as fp:
+            if fp:
+                dict_list = cls.from_json_string(fp.read())
+                for member in dict_list:
+                    instance_list.append(cls.create(**member))
+        return instance_list
