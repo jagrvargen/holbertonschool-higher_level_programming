@@ -3,6 +3,8 @@
    This module contains unit tests for the Rectangle class.
 """
 import unittest
+import sys
+import io
 from models.rectangle import Rectangle
 from models.base import Base
 
@@ -57,8 +59,10 @@ class TestRectangle(unittest.TestCase):
 #        r5 = Rectangle(5, 6, 7, 8)
 #        self.assertEqual(print(r5), "[Rectangle] (8) 7/8 - 5/6")
 
-    def test_update_rectangle(self):
-        """Test the output of the Rectangle class"""
+    def test_update_rectangle_args(self):
+        """Test the attributes of the Rectangle class when no-keyword args
+           are passed to the update method.
+        """
         with self.assertRaises(TypeError):
             r6 = Rectangle()
         r6 = Rectangle(1, 1, 1, 1)
@@ -72,3 +76,41 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r6.x, 5)
         r6.update(4, 4, 5, 6, 5)
         self.assertEqual(r6.y, 5)
+
+    def test_update_rectangle_kwargs(self):
+        """Test the attributes of the Rectangle class when keyword args
+           are passed to the update method.
+        """
+        r7 = Rectangle(1, 1, 1, 1)
+        r7.update(id=5, width=1)
+        self.assertEqual(r7.id, 5)
+        r7.update(id=5, width=5)
+        self.assertEqual(r7.width, 5)
+        r7.update(id=2, width=2, height=5)
+        self.assertEqual(r7.height, 5)
+        r7.update(id=3, width=3, height=4, x=5)
+        self.assertEqual(r7.x, 5)
+        r7.update(id=4, width=4, height=5, x=6, y=5)
+        self.assertEqual(r7.y, 5)
+        self.assertEqual(r7.width, 4)
+        self.assertEqual(r7.height, 5)
+        self.assertEqual(r7.x, 6)
+
+    def test_display_output(self):
+        """Tests the display method for correct output."""
+        r8 = Rectangle(width=3, height=3)
+        output = io.StringIO()
+        sys.stdout = output
+        r8.display()
+        sys.stdout = sys.__stdout__
+        self.assertEqual("###\n###\n###\n", output.getvalue())
+
+    def test_display_output_with_offset(self):
+        """Test the display method including offset values."""
+        r9 = Rectangle(width=5, height=3, x=4, y=2)
+        output = io.StringIO()
+        sys.stdout = output
+        r9.display()
+        sys.stdout = sys.__stdout__
+        self.assertEqual("\n\n    #####\n    #####\n    #####\n",\
+                         output.getvalue())
