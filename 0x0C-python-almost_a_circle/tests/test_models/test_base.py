@@ -15,7 +15,7 @@ class TestBase(unittest.TestCase):
     def test_is_instance_base(self):
         """Test that Base() returns an instance of the Base class."""
         b1 = Base()
-        assertIsInstance(b1, Base)
+        self.assertIsInstance(b1, Base)
 
     def test_nb_objects(self):
         """

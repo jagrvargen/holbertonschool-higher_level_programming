@@ -62,7 +62,7 @@ class TestRectangle(unittest.TestCase):
         sys.stdout = output
         print(r)
         sys.stdout = sys.__stdout__
-        self.assertEqual("[Rectangle] {:d} 2/3 - 5/2\n".format(r.id),\
+        self.assertEqual("[Rectangle] {:d} 2/3 - 5/2\n".format(r.id),
                          output.getvalue())
 
     def test_update_rectangle_args(self):
@@ -118,7 +118,7 @@ class TestRectangle(unittest.TestCase):
         sys.stdout = output
         r9.display()
         sys.stdout = sys.__stdout__
-        self.assertEqual("\n\n    #####\n    #####\n    #####\n",\
+        self.assertEqual("\n\n    #####\n    #####\n    #####\n",
                          output.getvalue())
 
     def test_to_dictionary_rectangle(self):
@@ -127,7 +127,7 @@ class TestRectangle(unittest.TestCase):
         """
         r10 = Rectangle(id=5, width=222, height=555, x=777, y=8888)
         r_dict = r10.to_dictionary()
-        self.assertEqual(r_dict, {'x': 777, 'y': 8888, 'width': 222,\
+        self.assertEqual(r_dict, {'x': 777, 'y': 8888, 'width': 222,
                                   'height': 555, 'id': 5})
 
     def test_save_to_file_rectangle(self):
@@ -144,7 +144,7 @@ class TestRectangle(unittest.TestCase):
         """Test that from_json_string method returns list of dictionaries
            from a JSON string.
         """
-        list_input = [{'id': 89, 'width': 10, 'height': 4},\
+        list_input = [{'id': 89, 'width': 10, 'height': 4},
                       {'id': 7, 'width': 1, 'height': 7}]
         json_list_input = Rectangle.to_json_string(list_input)
         list_output = Rectangle.from_json_string(json_list_input)
