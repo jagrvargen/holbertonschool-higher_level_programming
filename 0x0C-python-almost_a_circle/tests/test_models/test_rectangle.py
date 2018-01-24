@@ -149,3 +149,15 @@ class TestRectangle(unittest.TestCase):
         json_list_input = Rectangle.to_json_string(list_input)
         list_output = Rectangle.from_json_string(json_list_input)
         self.assertEqual(list_output, list_input)
+
+    def test_create_rectangle(self):
+        """Test that create method returns a new instance of a
+           Square with all attributes set.
+        """
+        r12 = Rectangle(3, 5, 6, 8, 9)
+        r12_dict = r12.to_dictionary()
+        output = io.StringIO()
+        sys.stdout = output
+        print(r12)
+        sys.stdout = sys.__stdout__
+        self.assertEqual("[Rectangle] 9 6/8 - 3/5\n", output.getvalue())

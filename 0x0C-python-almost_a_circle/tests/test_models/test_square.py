@@ -183,3 +183,44 @@ class TestSquare(unittest.TestCase):
         s12 = Square(id=5, size=222, x=777, y=8888)
         s_dict = s12.to_dictionary()
         self.assertEqual(s_dict, {'x': 777, 'y': 8888, 'size': 222, 'id': 5})
+
+    def test_to_dictionary_square(self):
+        """Test that the Rectangle to_dictionary method returns a
+           valid dictionary.
+        """
+        s11 = Square(id=5, size=222, x=777, y=8888)
+        s_dict = s11.to_dictionary()
+        self.assertEqual(s_dict, {'x': 777, 'y': 8888, 'size': 222,\
+                                  'id': 5})
+
+    def test_save_to_file_square(self):
+        """Test that the save_to_file method writes a JSON string
+           representation of a list of objects to a file.
+        """
+        s12 = Square(44, 33, 22, 11)
+        Rectangle.save_to_file([s12])
+        with open("Square.json", "r") as fp:
+            json_string = fp.read()
+        self.assertIsInstance(json_string, str)
+
+    def test_from_json_string_square(self):
+        """Test that from_json_string method returns list of dictionaries
+           from a JSON string.
+        """
+        list_input = [{'id': 89, 'size': 10,},\
+                      {'id': 7, 'size': 1}]
+        json_list_input = Rectangle.to_json_string(list_input)
+        list_output = Rectangle.from_json_string(json_list_input)
+        self.assertEqual(list_output, list_input)
+
+    def test_create_square(self):
+        """Test that create method returns a new instance of a
+           Square with all attributes set.
+        """
+        s13 = Square(3, 5, 6)
+        s13_dict = s13.to_dictionary()
+        output = io.StringIO()
+        sys.stdout = output
+        print(s13)
+        sys.stdout = sys.__stdout__
+        self.assertEqual("[Square] 23 5/6 - 3\n", output.getvalue())
