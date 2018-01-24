@@ -12,7 +12,7 @@ from models.base import Base
 class TestBase(unittest.TestCase):
     """This class contains unit tests for the Base class."""
 
-    def is_instance_base(self):
+    def test_is_instance_base(self):
         """Test that Base() returns an instance of the Base class."""
         b1 = Base()
         assertIsInstance(b1, Base)
