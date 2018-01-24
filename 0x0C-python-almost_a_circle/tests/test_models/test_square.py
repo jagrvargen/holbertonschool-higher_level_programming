@@ -156,7 +156,30 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(s10.size, 55)
         self.assertEqual(s10.x, 23)
         self.assertEqual(s10.y, 999)
-        s10.update(100, 100, 100)
+        s10.update(100, 100, 100, 100)
+        self.assertEqual(s10.id, 100)
         self.assertEqual(s10.size, 100)
         self.assertEqual(s10.x, 100)
         self.assertEqual(s10.y, 100)
+
+    def test_update_square_kwargs(self):
+        """Test that the Square update method has correct output when
+           kwargs are passed.
+        """
+        s11 = Square(55, 23, 99999)
+        self.assertEqual(s11.size, 55)
+        self.assertEqual(s11.x, 23)
+        self.assertEqual(s11.y, 99999)
+        s11.update(x=100, size=100, id=100, y=100)
+        self.assertEqual(s11.id, 100)
+        self.assertEqual(s11.size, 100)
+        self.assertEqual(s11.x, 100)
+        self.assertEqual(s11.y, 100)
+
+    def test_to_dictionary_square(self):
+        """Test that the Square to_dictionary method returns a
+           valid dictionary.
+        """
+        s12 = Square(id=5, size=222, x=777, y=8888)
+        s_dict = s12.to_dictionary()
+        self.assertEqual(s_dict, {'x': 777, 'y': 8888, 'size': 222, 'id': 5})

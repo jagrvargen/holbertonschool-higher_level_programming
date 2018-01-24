@@ -114,3 +114,12 @@ class TestRectangle(unittest.TestCase):
         sys.stdout = sys.__stdout__
         self.assertEqual("\n\n    #####\n    #####\n    #####\n",\
                          output.getvalue())
+
+    def test_to_dictionary_rectangle(self):
+        """Test that the Rectangle to_dictionary method returns a
+           valid dictionary.
+        """
+        r10 = Rectangle(id=5, width=222, height=555, x=777, y=8888)
+        r_dict = r10.to_dictionary()
+        self.assertEqual(r_dict, {'x': 777, 'y': 8888, 'width': 222,\
+                                  'height': 555, 'id': 5})
