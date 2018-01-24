@@ -5,6 +5,7 @@
 import unittest
 import sys
 import io
+import json
 from models.rectangle import Rectangle
 from models.base import Base
 
@@ -54,10 +55,15 @@ class TestRectangle(unittest.TestCase):
         r4 = Rectangle(250, 2, 60, 80)
         self.assertEqual(r4.area(), 500)
 
-#    def test_str(self):
-#        """Tests the ouput for the __str__ method."""
-#        r5 = Rectangle(5, 6, 7, 8)
-#        self.assertEqual(print(r5), "[Rectangle] (8) 7/8 - 5/6")
+    def test_str_return_square(self):
+        """Test that the __str__ method output is correct."""
+        r = Rectangle(5, 2, 2, 3)
+        output = io.StringIO()
+        sys.stdout = output
+        print(r)
+        sys.stdout = sys.__stdout__
+        self.assertEqual("[Rectangle] {:d} 2/3 - 5/2\n".format(r.id),\
+                         output.getvalue())
 
     def test_update_rectangle_args(self):
         """Test the attributes of the Rectangle class when no-keyword args
@@ -123,3 +129,23 @@ class TestRectangle(unittest.TestCase):
         r_dict = r10.to_dictionary()
         self.assertEqual(r_dict, {'x': 777, 'y': 8888, 'width': 222,\
                                   'height': 555, 'id': 5})
+
+    def test_save_to_file_rectangle(self):
+        """Test that the save_to_file method writes a JSON string
+           representation of a list of objects to a file.
+        """
+        r11 = Rectangle(44, 33, 22, 11)
+        Rectangle.save_to_file([r11])
+        with open("Rectangle.json", "r") as fp:
+            json_string = fp.read()
+        self.assertIsInstance(json_string, str)
+
+    def test_from_json_string_base(self):
+        """Test that from_json_string method returns list of dictionaries
+           from a JSON string.
+        """
+        list_input = [{'id': 89, 'width': 10, 'height': 4},\
+                      {'id': 7, 'width': 1, 'height': 7}]
+        json_list_input = Rectangle.to_json_string(list_input)
+        list_output = Rectangle.from_json_string(json_list_input)
+        self.assertEqual(list_output, list_input)
