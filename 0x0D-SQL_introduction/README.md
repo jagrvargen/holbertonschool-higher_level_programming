@@ -9,3 +9,5 @@
 3. 3-list_tables.sql - Lists all the tables of a database in a MySQL server.
 
 4. 4-first_table.sql - Create a table called first_table inside current database in a MySQL server.
+
+5. 5-full_table.sql - Prints the full description of the first_table table without using the DESCRIBE or EXPLAIN statements.
