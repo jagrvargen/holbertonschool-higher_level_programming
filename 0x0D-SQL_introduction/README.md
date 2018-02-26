@@ -11,3 +11,5 @@
 4. 4-first_table.sql - Create a table called first_table inside current database in a MySQL server.
 
 5. 5-full_table.sql - Prints the full description of the first_table table without using the DESCRIBE or EXPLAIN statements.
+
+6. 6-list_values.sql - Lists all rows of the first_table table.
