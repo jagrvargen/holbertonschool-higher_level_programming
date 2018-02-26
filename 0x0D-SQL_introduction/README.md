@@ -15,3 +15,5 @@
 6. 6-list_values.sql - Lists all rows of the first_table table.
 
 7.  7-insert_value.sql - Inserts a new row in the table first_table.
+
+8. 8-count_89.sql - Displays the number of records with id = 89 in the first_table table.
