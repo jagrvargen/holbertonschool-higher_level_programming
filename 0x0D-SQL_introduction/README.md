@@ -5,3 +5,5 @@
 1. 1-create_database_if_missing.sql - Creates the database hbtn_0c_0 in a MySQL server.
 
 2. 2-remove_database.sql - Deletes the database hbtn_0c_0 in a MySQL server.
+
+3. 3-list_tables.sql - Lists all the tables of a database in a MySQL server.
