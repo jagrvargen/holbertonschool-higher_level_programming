@@ -7,3 +7,5 @@
 2. 2-remove_database.sql - Deletes the database hbtn_0c_0 in a MySQL server.
 
 3. 3-list_tables.sql - Lists all the tables of a database in a MySQL server.
+
+4. 4-first_table.sql - Create a table called first_table inside current database in a MySQL server.
