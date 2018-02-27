@@ -33,3 +33,5 @@
 15. 15-groups.sql - Lists the number of records in second_table with the same score.
 
 16. 16-no_link.sql - Lists all records of second_table that have a name value, by score and name in descending order.
+
+17. 100-move_to_utf8.sql - Converts hbtn_0c_0 database, first_table, and field name from first_table to UTF-8.
