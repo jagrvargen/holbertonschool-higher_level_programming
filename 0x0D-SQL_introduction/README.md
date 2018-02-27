@@ -31,3 +31,5 @@
 14. 14-average.sql - Computes the score average of all records in second_table.
 
 15. 15-groups.sql - Lists the number of records in second_table with the same score.
+
+16. 16-no_link.sql - Lists all records of second_table that have a name value, by score and name in descending order.
