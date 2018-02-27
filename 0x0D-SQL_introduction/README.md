@@ -25,3 +25,5 @@
 11. 11-best_score.sql - Lists all records with a score >= 10 in second_table.
 
 12. 12-no_cheating.sql - Updates the score of Bob to 10 using the name field.
+
+13. 13-change_class.sql - Removes all records with a score <= 5 in second_table.
