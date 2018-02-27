@@ -19,3 +19,5 @@
 8. 8-count_89.sql - Displays the number of records with id = 89 in the first_table table.
 
 9. 9-full_creation.sql - Creates a table 'second_table' in the hbtn_0c_0 database and adds 4 rows.
+
+10. 10-top_score.sql - Lists all records of second_table with score first and name second, ordered highest to lowest..
