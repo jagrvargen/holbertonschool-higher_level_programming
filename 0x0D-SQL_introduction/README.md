@@ -21,3 +21,7 @@
 9. 9-full_creation.sql - Creates a table 'second_table' in the hbtn_0c_0 database and adds 4 rows.
 
 10. 10-top_score.sql - Lists all records of second_table with score first and name second, ordered highest to lowest..
+
+11. 11-best_score.sql - Lists all records with a score >= 10 in second_table.
+
+12. 12-no_cheating.sql - Updates the score of Bob to 10 using the name field.
