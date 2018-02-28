@@ -11,3 +11,5 @@
 4. 4-never_empty.sql - Creates the table id_not_null with default id 1 and name row.
 
 5. 5-unique_id.sql - Creates the table unique_id with default value 1. id must be unique.
+
+6. 6-states.sql - Creates the database hbtn_0d_usa and the table states in it. States will have a unique integer id, not null, auto-generated, as a primary key. Name row cannot be null.
