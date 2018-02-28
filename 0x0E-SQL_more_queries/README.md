@@ -13,3 +13,5 @@
 5. 5-unique_id.sql - Creates the table unique_id with default value 1. id must be unique.
 
 6. 6-states.sql - Creates the database hbtn_0d_usa and the table states in it. States will have a unique integer id, not null, auto-generated, as a primary key. Name row cannot be null.
+
+7. 7-cities.sql - Creates the databsae hbtn_0d_usa and the table cities in it. City has a unique id, auto-generated, not-null, and as a primary key. Table contains a state_id int, not null, and as a foreign key to the id of the states table.
