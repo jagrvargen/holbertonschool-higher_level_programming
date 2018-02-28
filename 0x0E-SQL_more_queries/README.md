@@ -17,3 +17,5 @@
 7. 7-cities.sql - Creates the databsae hbtn_0d_usa and the table cities in it. City has a unique id, auto-generated, not-null, and as a primary key. Table contains a state_id int, not null, and as a foreign key to the id of the states table.
 
 8. 8-cities_of_california_subquery.sql - Lists all the cities of California that can be found in the database hbtn_0d_usa. The states table contains only one record where name = California. Sorted in ascending order by cities.id.
+
+9. 9-cities_by_state_join.sql - Lists all cities contained in the database hbtn_0d_usa. Displays: cities.id - cities.name - states.name. Sorted in ascending order by cities.id
