@@ -9,3 +9,5 @@
 3. 3-force_name.sql - Creates the table force_name with id and name rows.
 
 4. 4-never_empty.sql - Creates the table id_not_null with default id 1 and name row.
+
+5. 5-unique_id.sql - Creates the table unique_id with default value 1. id must be unique.
