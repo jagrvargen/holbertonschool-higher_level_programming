@@ -7,3 +7,5 @@
 2. 2-create_read_user.sql - Creates the database hbtn_0d_2 and the user user_0d_2 with SELECT privilege and password set to user_0d_2_pwd.
 
 3. 3-force_name.sql - Creates the table force_name with id and name rows.
+
+4. 4-never_empty.sql - Creates the table id_not_null with default id 1 and name row.
