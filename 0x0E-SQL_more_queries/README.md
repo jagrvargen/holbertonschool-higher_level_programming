@@ -19,3 +19,5 @@
 8. 8-cities_of_california_subquery.sql - Lists all the cities of California that can be found in the database hbtn_0d_usa. The states table contains only one record where name = California. Sorted in ascending order by cities.id.
 
 9. 9-cities_by_state_join.sql - Lists all cities contained in the database hbtn_0d_usa. Displays: cities.id - cities.name - states.name. Sorted in ascending order by cities.id
+
+10. 10-genre_id_by_show.sql - Import the database dump from hbtn_0d_tvshows. Lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
