@@ -25,3 +25,5 @@
 11. 11-genre_id_all_shows.sql - Lists all shows contained in the database hbtn_0d_tvshows. Displays: tv_shows.title - tv_show_genres.genre_id. Sorted in ascending order by tv_shows.title and tv_show_genres.genre_id. If a show doesn’t have a genre, displays NULL.
 
 12. 12-no_genre.sql - Lists all shows contained in hbtn_0d_tvshows without a genre linked.
+
+13. 13-count_shows_by_genre.sql - Lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each.
