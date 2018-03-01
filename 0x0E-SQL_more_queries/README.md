@@ -27,3 +27,5 @@
 12. 12-no_genre.sql - Lists all shows contained in hbtn_0d_tvshows without a genre linked.
 
 13. 13-count_shows_by_genre.sql - Lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each.
+
+14. 14-my_genres.sql - Uses the hbtn_0d_tvshows database to lists all genres of the show Dexter.
