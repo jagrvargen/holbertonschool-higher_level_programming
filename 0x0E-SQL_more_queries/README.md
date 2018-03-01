@@ -23,3 +23,5 @@
 10. 10-genre_id_by_show.sql - Import the database dump from hbtn_0d_tvshows. Lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
 
 11. 11-genre_id_all_shows.sql - Lists all shows contained in the database hbtn_0d_tvshows. Displays: tv_shows.title - tv_show_genres.genre_id. Sorted in ascending order by tv_shows.title and tv_show_genres.genre_id. If a show doesn’t have a genre, displays NULL.
+
+12. 12-no_genre.sql - Lists all shows contained in hbtn_0d_tvshows without a genre linked.
