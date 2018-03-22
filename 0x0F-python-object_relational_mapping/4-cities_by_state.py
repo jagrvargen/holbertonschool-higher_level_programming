@@ -10,12 +10,11 @@ if __name__ == "__main__":
     USER = argv[1]
     PSWD = argv[2]
     DB = argv[3]
-    NAME = argv[4]
 
     db = MySQLdb.connect(user=USER, host="localhost", db=DB, passwd=PSWD)
     cur = db.cursor()
 
-    cur.execute("""SELECT * FROM states WHERE name = %s ORDER BY id ASC""", [NAME])
+    cur.execute("""SELECT cities.id, cities.name, states.name FROM cities JOIN states WHERE cities.state_id = states.id  ORDER BY id ASC""")
     rows = cur.fetchall()
 
     for row in rows:
