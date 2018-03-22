@@ -7,3 +7,7 @@
 2. 2-my_filter_states.py - Displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
 
 3. 3-my_safe_filter_states.py - Same as 3 but protects for SQL Injections.
+
+4. 4-cities_by_state.py - Lists all cities from the database hbtn_0e_4_usa.
+
+5. 5-filter_cities.py - Takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa
