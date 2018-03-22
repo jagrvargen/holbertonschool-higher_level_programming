@@ -13,3 +13,5 @@
 5. 5-filter_cities.py - Takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa
 
 6. model_state.py - Contains a class definition of State and an instance Base = declarative_base().
+
+7. 7-model_state_fetch_all.py - Lists all State objects from the database hbtn_0e_6_usa.
