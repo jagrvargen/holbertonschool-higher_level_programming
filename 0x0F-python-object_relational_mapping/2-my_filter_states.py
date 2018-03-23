@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
    This module contains a MySQLdb query.
 """
@@ -21,5 +21,5 @@ if __name__ == "__main__":
     for row in rows:
         print(row)
 
-        cur.close()
-        db.close()
+    cur.close()
+    db.close()
