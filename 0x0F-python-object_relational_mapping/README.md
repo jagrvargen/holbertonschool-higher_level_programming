@@ -21,3 +21,5 @@
 9. 9-model_state_filter_a.py - Lists all State objects that contain the letter a from the database hbtn_0e_6_usa.
 
 10. 10-model_state_my_get.py - Prints the State object with the name passed as an argument from the database hbtn_0e_6_usa.
+
+11. 11-model_state_insert.py - Inserts "Louisiana" into the database hbtn_0e_6_usa.
