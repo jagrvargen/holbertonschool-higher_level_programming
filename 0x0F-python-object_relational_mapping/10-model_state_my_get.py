@@ -30,5 +30,6 @@ if __name__ == "__main__":
         for entry in state:
             if entry.name == NAME:
                 print(entry.id)
+                exit()
     else:
-        print("Not Found")
+        print("Not found")
