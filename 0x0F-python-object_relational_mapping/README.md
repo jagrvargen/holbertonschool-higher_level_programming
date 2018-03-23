@@ -15,3 +15,5 @@
 6. model_state.py - Contains a class definition of State and an instance Base = declarative_base().
 
 7. 7-model_state_fetch_all.py - Lists all State objects from the database hbtn_0e_6_usa.
+
+8. 8-model_state_fetch_first.py - Prints the first State object from the database hbtn_0e_6_usa.
