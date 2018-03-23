@@ -22,8 +22,9 @@ if __name__ == "__main__":
 
     session = Session()
 
-    state = session.query(State).filter(State.name == NAME).one()
-    if state:
-        print(state.id)
-    else:
-        print("Not Found")
+    state = session.query(State).filter(State.name == NAME).all()
+    for entry in state:
+        if entry.name == NAME:
+            print(entry.id)
+        else:
+            print("Not Found")
