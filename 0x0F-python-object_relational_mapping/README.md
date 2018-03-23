@@ -25,3 +25,5 @@
 11. 11-model_state_insert.py - Inserts "Louisiana" into the database hbtn_0e_6_usa.
 
 12. 12-model_state_update_id_2.py - Changes the name of a State object from the database hbtn_0e_6_usa.
+
+13. 13-model_state_delete_a.py - Deletes all State objects with a name containing the letter 'a' from the database hbtn_0e_6_usa.
