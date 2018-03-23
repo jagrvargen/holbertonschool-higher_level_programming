@@ -6,7 +6,6 @@ if __name__ = "__main__":
     import MySQLdb
     from sys import argv
 
-
     USER = argv[1]
     PSWD = argv[2]
     DB = argv[3]

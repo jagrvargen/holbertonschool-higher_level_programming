@@ -6,7 +6,6 @@ if __name__ == "__main__":
     import MySQLdb
     from sys import argv
 
-
     USER = argv[1]
     PSWD = argv[2]
     DB = argv[3]
@@ -15,7 +14,9 @@ if __name__ == "__main__":
     db = MySQLdb.connect(user=USER, host="localhost", db=DB, passwd=PSWD)
     cur = db.cursor()
 
-    cur.execute("""SELECT cities.name FROM cities, states WHERE cities.state_id = states.id AND states.name = %s  ORDER BY cities.id ASC""", (NAME,))
+    cur.execute("""SELECT cities.name FROM cities, states WHERE\
+    cities.state_id = states.id AND states.name = %s  ORDER BY cities.id\
+    ASC""", (NAME,))
     rows = cur.fetchall()
 
     city_list = []
