@@ -19,3 +19,5 @@
 8. 8-model_state_fetch_first.py - Prints the first State object from the database hbtn_0e_6_usa.
 
 9. 9-model_state_filter_a.py - Lists all State objects that contain the letter a from the database hbtn_0e_6_usa.
+
+10. 10-model_state_my_get.py - Prints the State object with the name passed as an argument from the database hbtn_0e_6_usa.
