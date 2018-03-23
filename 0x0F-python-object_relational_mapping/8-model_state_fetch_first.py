@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
    This module contains a MySQLdb query.
 """
@@ -21,5 +21,8 @@ if __name__ == "__main__":
 
     session = Session()
 
-    for name, in session.query(State.name).filter(State.id == 1):
-        print("1: {}".format(name))
+    name = session.query(State).first()
+    if name:
+        print("{}: {}".format(name.id, name.name))
+    else:
+        print("Nothing")
