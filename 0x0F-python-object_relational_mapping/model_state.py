@@ -9,6 +9,7 @@ from sqlalchemy import Column, Integer, String
 
 Base = declarative_base()
 
+
 class State(Base):
     """
        A class definition for the state model class mapped to a declarative
