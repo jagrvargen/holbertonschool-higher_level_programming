@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
    This module contains a MySQLdb query.
 """
@@ -14,12 +14,12 @@ if __name__ == "__main__":
     db = MySQLdb.connect(user=USER, host="localhost", db=DB, passwd=PSWD)
     cur = db.cursor()
 
-    cur.execute("""SELECT * FROM states WHERE name = %s ORDER BY id ASC""",
-                (NAME,))
+    cur.execute("""SELECT * FROM states WHERE name = %s ORDER BY id ASC"""
+                ,(NAME,))
     rows = cur.fetchall()
 
     for row in rows:
         print(row)
 
-        cur.close()
-        db.close()
+    cur.close()
+    db.close()
