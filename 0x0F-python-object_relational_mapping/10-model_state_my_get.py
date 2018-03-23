@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     session = Session()
 
-    state = session.query(State).filter(State.name == NAME).first()
+    state = session.query(State).filter(State.name == NAME).one()
     if state:
         print(state.id)
     else:
