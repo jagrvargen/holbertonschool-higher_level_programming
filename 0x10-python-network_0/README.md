@@ -9,3 +9,5 @@
 3. 3-methods.sh - A Bash script that takes in a URL and displays all HTTP methods the server will accept.
 
 4. 4-header.sh - A Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response.
+
+5. 5-post_params.sh - A Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response.
