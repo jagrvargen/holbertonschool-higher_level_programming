@@ -9,3 +9,5 @@
 3. 3-error_code.py - A Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).
 
 4. 4-hbtn_status.pt - A Python script that fetches https://intranet.hbtn.io/status using the requests package.
+
+5. 5-hbtn_header.py - A Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header using the requests package.
