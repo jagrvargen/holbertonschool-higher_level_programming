@@ -19,3 +19,5 @@
 8. 8-json_api.py - A Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.
 
 9. 9-starwars.py - A Python script that takes in a string and sends a search request to the Star Wars API.
+
+10. 10-my_github.py - A Python script that takes your Github credentials (username and password) and uses the Github API to display your id. Username should be passed as the first argument to the script, and password the second.
