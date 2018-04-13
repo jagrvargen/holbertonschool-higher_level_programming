@@ -21,3 +21,5 @@
 9. 9-starwars.py - A Python script that takes in a string and sends a search request to the Star Wars API.
 
 10. 10-my_github.py - A Python script that takes your Github credentials (username and password) and uses the Github API to display your id. Username should be passed as the first argument to the script, and password the second.
+
+11. 100-github_commit.py - A script which retrieves the last 10 commits to a repo and lists them by SHA and author. The repo an owner name are passed as the first and second arguments respectively.
