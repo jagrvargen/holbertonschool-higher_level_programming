@@ -23,3 +23,5 @@
 10. 10-factorial.js - A script that computes and prints a factorial.
 
 11. 11-second_biggest.js - A script that searches for the second biggest integer in the list of arguments.
+
+12. 12-object.js - A script which replaces the value 12 of an object with the value 89.
