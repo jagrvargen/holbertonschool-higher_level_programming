@@ -9,3 +9,5 @@
 3. 3-value_argument.js - A script that prints the first argument passed to it.
 
 4. 4-concat.js - A script that prints the two arguments passed to it in the format 'ARG1 is ARG2'.
+
+5. 5-to_integer.js - A script which prints "My number: ARG1" if the first argument can be converted to an integer.
