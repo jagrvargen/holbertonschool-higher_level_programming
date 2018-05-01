@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-let myArr = new Array();
+let myArr = new Array(3);
 
 myArr[0] = 'C is fun';
 myArr[1] = 'Python is cool';
