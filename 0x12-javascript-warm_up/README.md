@@ -25,3 +25,5 @@
 11. 11-second_biggest.js - A script that searches for the second biggest integer in the list of arguments.
 
 12. 12-object.js - A script which replaces the value 12 of an object with the value 89.
+
+13. 13-add.js - A function that returns the addition of 2 integers using node exports.
