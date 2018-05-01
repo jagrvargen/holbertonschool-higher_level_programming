@@ -19,3 +19,5 @@
 8. 8-square.js - A script that prints a square whose size is determined by the first argument to the script.
 
 9. 9-add.js - A script that prints the addition of two integers which are passed as the first and second arguments to the script.
+
+10. 10-factorial.js - A script that computes and prints a factorial.
