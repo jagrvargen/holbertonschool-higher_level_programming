@@ -12,7 +12,7 @@ module.exports = class Square extends square {
       super.print();
     } else {
       for (let i = 0; i < this.size; i++) {
-	console.log(c.repeat(this.size));
+        console.log(c.repeat(this.size));
       }
     }
   }
