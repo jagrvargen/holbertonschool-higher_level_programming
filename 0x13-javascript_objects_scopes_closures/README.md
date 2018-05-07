@@ -13,3 +13,5 @@
 5. 5-square.js - Class definition of Square which inherits from Revtangle. Square constructor overrides the Rectangle constructor and only takes the singular argument 'size'.
 
 6. 6-square.js - Create new Square class that inherits from previous Square class and adds the instance method charPrint(c) that prints the square using the character C.
+
+7. 7-occurences.js - A function that returns  the number of occurences in a list.
