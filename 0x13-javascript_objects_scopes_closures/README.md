@@ -18,4 +18,6 @@
 
 8. 8-esrever.js - A function that returns the reversed version of an array.
 
-9. 9-loghme.js - A function that prints the number of arguments already printed as well as the new value.
+9. 9-logme.js - A function that prints the number of arguments already printed as well as the new value.
+
+10. 10-converter.js - A function that converts a number from base 10 to the base passed as an argument.
