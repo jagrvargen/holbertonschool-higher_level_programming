@@ -6,4 +6,6 @@
 
 2. 2-rectangle.js - Extends rectangle class definition so that if w or h are equal to 0, the created object will be empty.
 
-3. 3-rectangle.js - Adds an instance method print to the Rectangle class which will log the rectangle to the console.
+3. 3-rectangle.js - Adds an instance method print() to the Rectangle class which will log the rectangle to the console.
+
+4. 4-rectangle.js - Adds the instance method rotate() which exchanges the width and height of a rectangle, and double() that multiplies the width and height by 2.
