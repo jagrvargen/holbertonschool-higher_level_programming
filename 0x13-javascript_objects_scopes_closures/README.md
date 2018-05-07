@@ -11,3 +11,5 @@
 4. 4-rectangle.js - Adds the instance method rotate() which exchanges the width and height of a rectangle, and double() that multiplies the width and height by 2.
 
 5. 5-square.js - Class definition of Square which inherits from Revtangle. Square constructor overrides the Rectangle constructor and only takes the singular argument 'size'.
+
+6. 6-square.js - Create new Square class that inherits from previous Square class and adds the instance method charPrint(c) that prints the square using the character C.
