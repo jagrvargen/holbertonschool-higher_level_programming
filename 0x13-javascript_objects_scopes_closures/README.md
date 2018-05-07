@@ -15,3 +15,7 @@
 6. 6-square.js - Create new Square class that inherits from previous Square class and adds the instance method charPrint(c) that prints the square using the character C.
 
 7. 7-occurences.js - A function that returns  the number of occurences in a list.
+
+8. 8-esrever.js - A function that returns the reversed version of an array.
+
+9. 9-loghme.js - A function that prints the number of arguments already printed as well as the new value.
