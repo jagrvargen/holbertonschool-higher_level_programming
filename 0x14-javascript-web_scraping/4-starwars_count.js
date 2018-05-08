@@ -10,7 +10,7 @@ request(url, function (error, response, body) {
   } else {
     const res = JSON.parse(body['body']);
     let count = 0;
-    const results = res['body'];
+    const results = res['results'];
     for (let i = 0; i < results.length; i++) {
       for (let j = 0; j < results[i]['characters'].length; j++) {
         if (results[i]['characters'][j] === wedge) {
