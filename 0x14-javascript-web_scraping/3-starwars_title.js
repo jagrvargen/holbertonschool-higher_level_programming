@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-const film_id = process.argv[2];
-const url = "http://swapi.co/api/films/" + film_id;
+const filmId = process.argv[2];
+const url = 'http://swapi.co/api/films/' + filmId;
 
 const request = require('request');
 
