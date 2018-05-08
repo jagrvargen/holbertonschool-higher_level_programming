@@ -8,13 +8,13 @@ request.get(url, function (error, body) {
     console.log(error);
   } else {
     let obj = {};
-    res = JSON.parse(body['body'])
+    let res = JSON.parse(body['body']);
     for (let i = 1; i < 11; i++) {
       obj[String(i)] = 0;
     }
     for (let j = 0; j < res.length; j++) {
       if (res[j]['completed'] === true) {
-	obj[String(res[j]['userId'])]++;
+        obj[String(res[j]['userId'])]++;
       }
     }
     console.log(obj);

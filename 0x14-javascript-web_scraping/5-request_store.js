@@ -7,7 +7,7 @@ const fs = require('fs');
 
 request
   .get(url)
-  .on('error', function(error) {
+  .on('error', function (error) {
     console.log(error);
   })
   .pipe(fs.createWriteStream(path));
