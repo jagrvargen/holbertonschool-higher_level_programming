@@ -9,12 +9,12 @@ request.get(url, function (error, body) {
   } else {
     let obj = {};
     let res = JSON.parse(body['body']);
-    for (let i = 1; i < 11; i++) {
-      obj[String(i)] = 0;
-    }
     for (let j = 0; j < res.length; j++) {
-      if (res[j]['completed'] === true) {
-        obj[String(res[j]['userId'])]++;
+      let user = String(res[j]['userId']);
+      if (res[j]['completed'] === true && user in obj) {
+        obj[user]++;
+      } else if (res[j]['completed'] === true) {
+	obj[user] = 1;
       }
     }
     console.log(obj);
