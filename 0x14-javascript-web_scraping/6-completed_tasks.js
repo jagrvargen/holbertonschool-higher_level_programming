@@ -14,7 +14,7 @@ request.get(url, function (error, body) {
       if (res[j]['completed'] === true && user in obj) {
         obj[user]++;
       } else if (res[j]['completed'] === true) {
-	obj[user] = 1;
+        obj[user] = 1;
       }
     }
     console.log(obj);
