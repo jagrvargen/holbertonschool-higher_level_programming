@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const url = process.argv[2];
-const wedge = 'https://swapi.co/api/people/18/';
+const wedge = '18';
 const request = require('request');
 
 request(url, function (error, response, body) {
@@ -13,7 +13,7 @@ request(url, function (error, response, body) {
     for (let i = 0; i < films.length; i++) {
       let chars = films[i]['characters'];
       for (let j = 0; j < chars.length; j++) {
-        if (wedge === chars[j]) {
+        if (chars[j].includes(wedge)) {
           count++;
         }
       }
