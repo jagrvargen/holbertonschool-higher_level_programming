@@ -11,3 +11,5 @@
 4. 4-script.js - A script that toggles the class of the HTML tag HEADER between #FF0000 and #00FF00 when #toggle_header is clicked.
 
 5. 5-script.js - A script that adds an LI element to a list when the user clicks on the #add_item DIV.
+
+6. 6-scripts.js - A script that updates the text of the HTML tag HEADER to "New Header!!!" when the user clicks on the #update_header DIV.
