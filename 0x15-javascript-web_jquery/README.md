@@ -13,3 +13,5 @@
 5. 5-script.js - A script that adds an LI element to a list when the user clicks on the #add_item DIV.
 
 6. 6-scripts.js - A script that updates the text of the HTML tag HEADER to "New Header!!!" when the user clicks on the #update_header DIV.
+
+7-script.js - A script that fetches the name of a character from the Star Wars API and places it in the #character DIV.
