@@ -14,4 +14,6 @@
 
 6. 6-scripts.js - A script that updates the text of the HTML tag HEADER to "New Header!!!" when the user clicks on the #update_header DIV.
 
-7-script.js - A script that fetches the name of a character from the Star Wars API and places it in the #character DIV.
+7. 7-script.js - A script that fetches the name of a character from the Star Wars API and places it in the #character DIV.
+
+8. 8-script.js - A script that fetches and lists all movies titles from the Star Wars API and adds them to the #list_movies UL.
